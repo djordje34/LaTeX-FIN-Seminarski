@@ -11,6 +11,6 @@ Define functions prior to any document title or section initialization - before 
 - \indeks{Student index in format ind/year (ex. 11/2011)}
 
 Includes packages specific for programming and visualization use-case : 
-- minted - [Docs and tutorial](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted)
-- graphicx [Docs and tutorial](https://www.overleaf.com/learn/latex/Inserting_Images)
-- xcolor [Docs and tutorial](https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX)
+- minted : [Docs and tutorial](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted)
+- graphicx : [Docs and tutorial](https://www.overleaf.com/learn/latex/Inserting_Images)
+- xcolor : [Docs and tutorial](https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX)
