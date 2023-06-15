@@ -1,7 +1,12 @@
 # LaTeX-FIN-Seminarski
 LaTeX class for term papers at the Faculty of Engineering
+
+![finkg](https://github.com/djordje34/LaTeX-FIN-Seminarski/blob/main/finkgbg.png "fin kg")
 ---
-Generates pdf resembling ['example.pdf'](https://github.com/djordje34/LaTeX-FIN-Seminarski/blob/main/example.pdf). Contains required title page for term papers, table of contents with hyperref, and renewed commands which affect some packages captions to be written in Serbian cyrillic.
+Generates pdf resembling ['example.pdf'](https://github.com/djordje34/LaTeX-FIN-Seminarski/blob/main/example.pdf). Contains required
+title page for term papers,
+table of contents with hyperref, and renewed commands which affect
+some packages captions to be written in Serbian cyrillic.
 
 Define functions prior to any document title or section initialization - before **\maketitle** :
 - \student{Student name}
