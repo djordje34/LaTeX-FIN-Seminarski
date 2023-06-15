@@ -25,12 +25,12 @@
 \RequirePackage{csquotes}
 \RequirePackage{pdfpages}
 
-
-
-
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
-\renewcommand{\normalsize}{\fontsize{12}}
-\renewcommand*\contentsname{Садржај}
+
+% Fix the \normalsize command
+\renewcommand{\normalsize}{\fontsize{12}{14}\selectfont}
+
+\renewcommand{\contentsname}{Садржај}
 \renewcommand{\figurename}{Слика}
 
 \newcommand\@newpublicfield[2][\@empty]{%
@@ -45,15 +45,15 @@
 \@newpublicfield{indeks}
 \@newpublicfield{nazivrada}
 \@newpublicfield{predmet}
+
 \renewcommand{\maketitle}{%
 \begin{titlepage}
-
 \begin{center}
 \Large
 Универзитет у Крагујевцу\\\relax
 Факултет инжењерских наука
 \vspace{0.5cm}
-\includegraphics[width=1.0\textwidth]{logofaks.png}
+\includegraphics[width=1.0\textwidth]{logofaks.png} % Update the file extension if needed
 
 \LARGE
 \textbf{\@predmet}
@@ -74,7 +74,6 @@
 \hfill
 \@student \space \@indeks
 \vspace*{\fill}
-
 
 \_\_.\_\_.2023.
 \end{center}
