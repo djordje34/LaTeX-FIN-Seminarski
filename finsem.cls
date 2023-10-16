@@ -40,11 +40,22 @@
     \global\expandafter\let\csname @#2\endcsname#1%
 }
 
+
+%bibtex
+
+\newcommand{\makebibliography}{%
+    \clearpage%
+    {\sloppy%
+    \printbibliography[heading=bibintoc]}%
+}
+
 \@newpublicfield{profesor}
 \@newpublicfield{student}
 \@newpublicfield{indeks}
 \@newpublicfield{nazivrada}
 \@newpublicfield{predmet}
+
+\addbibresource{reference.bib}
 
 \renewcommand{\maketitle}{%
 \begin{titlepage}
@@ -80,3 +91,4 @@
 \end{titlepage}
 \tableofcontents
 \clearpage}
+
