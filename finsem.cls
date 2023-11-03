@@ -54,7 +54,7 @@
 \@newpublicfield{indeks}
 \@newpublicfield{nazivrada}
 \@newpublicfield{predmet}
-
+\@newpublicfield{tiprada}
 \addbibresource{reference.bib}
 
 \renewcommand{\maketitle}{%
@@ -71,7 +71,7 @@
 
 \vspace{0.5cm}
 \Large
-Семинарски рад
+\@tiprada
 
 \vspace{1.5cm}
 
@@ -91,4 +91,5 @@
 \end{titlepage}
 \tableofcontents
 \clearpage}
+
 
